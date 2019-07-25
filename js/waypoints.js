@@ -2,7 +2,7 @@
 $(function(){ // a self calling function
     function onScrollInit( items, trigger ) { // a custom made function
         items.each( function() { //for every element in items run function
-        var osElement = $(this), //set osElement to the current 
+        var osElement = $(this), //set osElement to the current
             osAnimationClass = osElement.attr('data-animation'), //get value of attribute data-animation type
             osAnimationDelay = osElement.attr('data-delay'); //get value of attribute data-delay time
 
