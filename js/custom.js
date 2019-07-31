@@ -27,3 +27,25 @@ $(document).ready(function() {
     $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
   });
 });
+
+$(document).ready(function() {
+  $("#item-slider").owlCarousel({
+    items:4,
+
+    smartSpeed: 700,
+  
+    autoplayHoverPause: true,
+    responsive: {
+      0 : {
+        items: 1
+    },
+      576 : {
+        items: 2
+      },
+      768 : {
+        items: 3
+      }
+    }
+  }
+);
+});

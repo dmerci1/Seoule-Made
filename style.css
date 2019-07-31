@@ -150,3 +150,101 @@ img.example-image {
 .portfolio-item {
   overflow: hidden;
 }
+
+#fixed-2 {
+  background-image: url('img/fixed/office.png');
+  z-index: -1;
+}
+
+.light {
+  background-color: rgba(255, 255, 255, .85);
+  padding: 3rem 2rem 2rem;
+  z-index: 1000!important;
+}
+.card {
+  border-radius: 0;
+  border: .1rem solid rgba(0,0,0, .075);
+  box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+  margin: 0 1rem;
+  transition: transform .4s ease;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card:hover {
+  transform: scale(.95);
+}
+
+.card h4 {
+  font-weight: 700;
+}
+
+.card h5 {
+  color: #ff69b4;
+}
+.card p {
+  border-top: .1rem solid rgba(0,0,0, .1);
+  border-bottom: .1rem solid rgba(0,0,0, .1);
+  padding: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.card svg.svg-inline--fa {
+  color: #FF69B4!important;
+  font-size: 1.3rem;
+  width: 2rem;
+}
+.card svg.svg-inline--fa:hover {
+  color: #6c757d!important;
+}
+
+.owl-dot.ative span,
+.owl-dot:hover span {
+  background:  #FF69B4!important;
+}
+
+footer {
+    background: black;
+    padding: 1rem 2rem 3rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem; .5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #FF69B4!important;
+}
+
+footer h3 {
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
+
+.form-group {
+  margin-bottom: 1.3rem;
+}
+
+.form-control {
+  background-color: #53595f;
+  border-radius: 0;
+  border: .15rem solid#666b71;
+  color: white!important;
+  font-size: : 1.1rem;
+}
+
+form-control:focus {
+    background-color: #53595f;
+    border: .15rem solid#666b71;
+}
+
+input.btn {
+  cursor: pointer;
+}
