@@ -64,11 +64,37 @@ Home
   top: 38%;
   z-index: 1;
   margin-left: auto;
- margin-right: auto;
- left: 0;
- right: 0;
-}
+   margin-right: auto;
+   left: 0;
+   right: 0;
+  }
 
+  .caption h1 {
+    color: white;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+  }
+  .caption h3 {
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 2rem;
+  }
+  .btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+  }
 .narrow {
   width: 75%;
   margin: 0 auto;
@@ -247,4 +273,71 @@ form-control:focus {
 
 input.btn {
   cursor: pointer;
+}
+
+/* Media query for devices under 992px */
+@media (max-width: 991px) {
+  .caption h1 {
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 0.8rem;
+  }
+  .caption h3 {
+    font-size: 2,2rem;
+    padding-bottom: 1.7rem;
+  }
+  .btn-lg {
+    padding: .7rem 1.2rem;
+    font-size: 2.1rem;
+  }
+  .narrow h1 {
+    font-size: 2.1rem;
+  }
+}
+
+/* Media query for devices under 768px */
+@media (max-width: 767px) {
+  .caption h1 {
+    font-size: 2.2rem;
+    letter-spacing: 0.15rem;
+    padding-bottom: 0.5em;
+  }
+  .caption h3 {
+    font-size: 1.7rem;
+    padding-bottom: 1.2rem;
+  }
+  .btn-lg {
+    padding: .6rem 1.1rem;
+    font-size: 1rem;
+  }
+  .narrow h1 {
+    font-size: 1.8rem;
+  }
+  #fixed {
+    background-image: url('img/facial.jpg');
+  }
+  #fixed-2 {
+    background-image: url('img/fixed/office.png');
+  }
+
+}
+
+/* Media query for devices under 576px */
+@media (max-width: 575px) {
+  .caption h1 {
+    font-size: 1.9rem;
+    letter-spacing: 0.15em;
+    padding-bottom: 0.4em;
+  }
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+  .btn-lg {
+    padding: .4rem .9rem;
+    font-size: 1rem;
+  }
+  .narrow {
+    width: 85%;
+  }
 }
