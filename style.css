@@ -266,12 +266,17 @@ img.example-image {
 footer {
     background: black;
     padding: 1rem 2rem 3rem;
+    color: white;
 }
 
 footer a {
   color: white;
+    font-size: 1rem;
 }
 
+footer a:hover {
+  color: #FF69B4!important;
+}
 footer svg.svg-inline--fa {
   font-size: 1.6rem;
   margin: 1.2rem; .5rem 0 0;
@@ -284,6 +289,7 @@ footer svg.svg-inline--fa:hover {
 footer h3 {
   text-transform: uppercase;
   margin: 1.5rem 0;
+  color: 'white';
 }
 
 .form-group {
